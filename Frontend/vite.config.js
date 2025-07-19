@@ -8,7 +8,7 @@ export default defineConfig({
   server:{
     proxy:{
       '/api':{
-        target:'tcms-texas-pi.vercel.app',
+        target:'https://tcms-texas-pi.vercel.app',
         secure:false,
       },
     },
