@@ -8,7 +8,7 @@ export default defineConfig({
   server:{
     proxy:{
       '/api':{
-        target:'http://localhost:3000',
+        target:'https://687b3c4eb820d0b78eb22cec--tcms-backend.netlify.app',
         secure:false,
       },
     },
