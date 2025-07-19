@@ -8,7 +8,7 @@ export default defineConfig({
   server:{
     proxy:{
       '/api':{
-        target:'https://687b3c4eb820d0b78eb22cec--tcms-backend.netlify.app',
+        target:'tcms-texas-pi.vercel.app',
         secure:false,
       },
     },
