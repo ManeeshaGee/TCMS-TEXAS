@@ -7,7 +7,7 @@ import { useEffect, useRef } from "react";
 import { Eye, EyeClosed} from "lucide-react";
 import { ArrowRight, Lock, Mail, CheckCircle, XCircle } from 'lucide-react';
 import { useModal } from "../components/hooks/useModal";
-import { Modal } from "../components/ui/modal"
+import { Modal } from "../components/ui/Modal"
 import "notyf/notyf.min.css";
 
 
