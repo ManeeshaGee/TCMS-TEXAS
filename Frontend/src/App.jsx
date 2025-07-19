@@ -80,12 +80,12 @@ import QuizCreation from './pages/Tutor/QuizCreation'
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
       <Route path="/attendance" element={<Attendance/>} />
       <Route path="/registration" element={<Registration/>} />
       <Route path="/payment" element={<Payment/>} />
       <Route path='/header' element={<Header/>}/>
-      <Route path="/login" element={<Login/>} />
+      <Route path="/l" element={<Login/>} />
       <Route path="/table" element={<BasicTable/>} />
       <Route path="/mincome" element={<MonthlyIncomeChart/>} />
       <Route path="/mtarget" element={<MonthlyTarget/>}/>
