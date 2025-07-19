@@ -24,12 +24,12 @@ export default function Home() {
            const token = localStorage.getItem("token");
            if (!token) {
                alert("Please login to access this page");
-               window.location.href = "/login";
+               window.location.href = "/";
             }
             const user = JSON.parse(localStorage.getItem("user"));
             if(user?.role !== "admin") {
               alert("You do not have permission to access this page");
-              window.location.href = "/login";
+              window.location.href = "/";
             }
             const verifyToken = async () => {
               try {
@@ -42,7 +42,7 @@ export default function Home() {
                     const data = await res.json();
                     if (data.message === "Token expired" || "Invalid token") {
                        alert("Session expired, please login again");
-                       window.location.href = "/login";
+                       window.location.href = "/";
    
                      }
                  } catch (error) {
